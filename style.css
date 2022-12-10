@@ -110,3 +110,7 @@ th{
     background-color: gold;
     width: 10%;
 }
+.pxp{
+    position: relative;
+    color: darkslategrey;
+}
