@@ -1,0 +1,112 @@
+@font-face {
+    font-family: MsMadi;
+    src: url(font/MsMadi-Regular.ttf);
+}
+@font-face {
+    font-family: Reenie;
+    src: url(font/ReenieBeanie-Regular.ttf);
+}
+@font-face {
+    font-family: Eagle;
+    src: url(font/EagleLake-Regular.ttf);
+}
+body{
+    background-color: black ;
+    color: white;
+}
+table{
+    vertical-align: top;
+}
+th{
+    height: 2rem;
+    width: 2rem;
+}
+.base{
+    height: 20rem;
+    width: 40rem;
+    background-color: slategrey;
+    border-radius: 5rem;
+    background-image: url("img/paper.jpg");
+}
+.ppic{
+    position: inherit;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+.ppicWrap{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.infoWrap{
+    padding-left: 0.8rem;
+    vertical-align: top;
+    text-align: left;
+    color: black;
+    font-family: Eagle;
+}
+.level{
+    margin-top: -1rem;
+    padding-top: 0.2rem;
+    text-align: left;
+}
+.lvl{
+    width: 362%;
+    height: 1rem;
+}
+.xp::-moz-progress-bar {
+    background: gold;
+    border-radius: 5rem;
+}
+.xp[value]{
+    background-color: grey;
+    width: 362%;
+    height: 50%;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5rem;
+}
+.hp{
+    color: red;
+}
+.mp{
+    color: aqua;
+}
+.infobars{
+    padding-top: 1.79rem;
+    padding-left: 1rem;
+    font-family: Eagle;
+    vertical-align: top;
+    text-align: left;
+}
+.container {
+    background-color: grey;
+    width: 570%;
+    border-radius: 15px;
+}
+.skill {
+    height: 1rem;
+    padding: 1px;
+    text-align: right;
+    border-radius: 15px;
+}
+.hpb{
+    background-color: red;
+    width: 80%;
+}
+.mpb{
+    background-color: blue;
+    width: 80%;
+}
+.lbstat{
+    padding-top: 0.8rem;
+}
+.containerxpb {
+    background-color: grey;
+    width: 380%;
+    border-radius: 15px;
+}
+.xpb{
+    background-color: gold;
+    width: 10%;
+}
