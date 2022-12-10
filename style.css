@@ -37,6 +37,7 @@ th{
 .ppicWrap{
     padding-left: 1rem;
     padding-top: 1rem;
+    
 }
 .infoWrap{
     padding-left: 0.8rem;
@@ -92,11 +93,9 @@ th{
 }
 .hpb{
     background-color: red;
-    width: 80%;
 }
 .mpb{
     background-color: blue;
-    width: 80%;
 }
 .lbstat{
     padding-top: 0.8rem;
@@ -108,9 +107,13 @@ th{
 }
 .xpb{
     background-color: gold;
-    width: 10%;
 }
-.pxp{
-    position: relative;
-    color: darkslategrey;
+.lbxp{
+    
+    text-align: center;
+    text-overflow: unset;
+}
+.lbxp label{
+    font-family: Eagle;
+    text-align: right;
 }
