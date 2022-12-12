@@ -109,11 +109,10 @@ th{
     background-color: gold;
 }
 .lbxp{
-    
-    text-align: center;
-    text-overflow: unset;
+    text-align: right;
+    padding-bottom: 0rem;
 }
 .lbxp label{
+
     font-family: Eagle;
-    text-align: right;
 }
